@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+      <!-- main container area -->
+	
+        <h2 class='text-center mt-5'>Ramadan Sehri & Iftar Time</h2>
+
+        <div class="row mt-5">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mx-auto">
+                <div class="table-responsive-sm table-responsive-md table-responsive-lg table-responsive-xl">
+                    <table class="table table-dark table-striped table-hover">
+                        <thead>
+                            <tr class='text-center'>
+                                <th>Date</th>
+                                <th>SEHRI</th>
+                                <th>IFTAR</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class='text-center'>
+                                <td class="bg-info">{{finaloutput.DATE }}</td>
+                                <td class="bg-warning text-dark">{{ finaloutput.SEHRI }}</td>
+                                <td class="bg-danger">{{finaloutput.IFTAR }}</td>
+                            </tr>                
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+
+         
+      <!-- end main container area -->
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
